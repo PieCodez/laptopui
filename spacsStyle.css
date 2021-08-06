@@ -1,0 +1,138 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+header{
+    display: flex;
+    width: 90%;
+    height: 10vh;
+    margin: auto;
+    align-items: center;
+}
+
+.logo-container,.nav-links,.cart{
+    display: flex;
+}
+
+.logo-container{  
+    flex: 1;
+}
+.logo{
+    font-weight: 500;
+    margin: 5px;
+}
+
+.nav-links{
+    justify-content: space-around;
+    list-style: none;
+}
+
+nav{
+    flex: 2;
+}
+
+.nav-link{
+    color: #5f5f79;
+    font-size: 18px;
+    text-decoration: none;
+    justify-content: space-around;
+}
+
+.cart{
+    flex: 1;
+    justify-content: flex-end;
+}
+
+main{
+    margin-left: 300px;
+    margin-top: 50px;
+    display: flex;
+}
+
+main h1{
+    background:linear-gradient(to right, rgb(26, 142, 209) , rgb(207, 52, 174)); 
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    margin-bottom: 0px;
+    font-size: 40px;
+}
+
+ p{
+    margin-top: 0px;
+    position: absolute;
+    left:90px;
+    font-size: 16px;
+    font-weight: 400;
+    color: rgb(73, 68, 68);
+    opacity: 1.2;
+    
+}
+
+.cover-nvidia img{
+    height: 200px;
+    width: 300px;
+    position: absolute;
+    top: 270px;
+    left:980px;
+    filter:drop-shadow(0px 5px 3px black );
+}
+
+.cover-amd img{
+    height: 200px;
+    width: 300px;
+    position: absolute;
+    top: 270px;
+    left:200px;
+    filter:drop-shadow(0px 5px 3px black );
+    margin-bottom: 0px;
+}
+
+.amd-txt{
+    display: flex;
+    margin-top:380px;
+}
+
+.amd-txt p{
+    margin-top: 0px;
+    margin-left:-40px;
+    font-size: 30px;
+}
+
+.gpu-txt{
+    display: flex;
+    margin-top: 380px;
+}
+
+.gpu-txt p{
+    margin-top: 0px;
+    margin-left: 90vh;
+    font-size: 30px;
+}
+
+.big-circle{
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    z-index:-1 ;
+    opacity: 0.3;
+    height: 80%;
+}
+
+.mid-circle{
+    position: absolute;
+    top: 30%;
+    right: 30%;
+    z-index: -1;
+    height: 60%;
+    opacity: 0.4; 
+}
+
+.small-circle{
+    position: absolute;
+    left: 20%;
+    bottom: 0%;
+    z-index: -1;
+    height: 60%; 
+}
